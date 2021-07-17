@@ -1,0 +1,154 @@
+body {
+  background-color: var(--color-secondary);
+
+  // remove
+  // background-color: aqua;
+}
+
+.header {
+  max-width: 120rem;
+  margin: 0 auto;
+  height: max-content;
+  // height: 20vh;
+}
+
+.main {
+  background-image: url(../img/background-cs.jpg);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 160px);
+  @include respond(phone) {
+    background: #fff;
+    height: auto;
+  }
+}
+
+.main2 {
+  background-color: #fff;
+
+  // remove
+  // min-height: 70vh;
+}
+
+.footer {
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+.container {
+  width: 100%;
+  background-color: var(--color-secondary);
+  margin: 0 auto;
+  z-index: 1;
+  //   remove
+  // min-height: 15rem;
+}
+
+.container2 {
+  max-width: 120rem;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  // justify-content: flex-end;
+  justify-content: center;
+
+  align-items: flex-start;
+  flex-direction: column;
+  // position: relative;
+
+  @include respond(phone) {
+    justify-content: flex-start;
+    padding: 1rem;
+    padding-top: 4.5rem;
+  }
+}
+
+.container3 {
+  max-width: 120rem;
+  margin: 0 auto;
+  // height: 100%;
+  display: flex;
+
+  // padding: 8rem 3rem;
+  // remove
+  // background-color: aqua;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+// main2 padding
+.py-main2 {
+  padding: 8rem 3rem;
+}
+
+// footer padding
+.py-footer {
+  padding: 8rem 0 4rem;
+}
+
+.nav_position {
+  top: 100%;
+  transform: translateY(-50%);
+}
+
+.pt {
+  padding-top: 1.5rem;
+}
+
+.pb {
+  padding-bottom: 5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.xl-padding-y {
+  @include respond(x-large) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+
+  // test
+  // opacity: 0.5;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.hidden1 {
+  display: none;
+}
+.hidden2 {
+  display: none;
+}
+.hidden3 {
+  display: none;
+}
+.hidden4 {
+  display: none;
+}
+.hidden5 {
+  display: none;
+}
+.hidden6 {
+  display: none;
+}
+.hidden7 {
+  display: none;
+}

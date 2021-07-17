@@ -1,0 +1,89 @@
+:root {
+  --color-primary: #ffb606;
+  --color-secondary: #07142e;
+  --color-blue: #2171b3;
+  --color-light: #ababab;
+  --color-light-a: #ababab55;
+}
+
+$bp-x-large: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-medium: 62.5em; //1000px
+$bp-small: 47em; //752px
+$bp-phone: 36em; //576px
+
+// RWD breakpoint
+@mixin respond($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (max-width: $bp-phone) {
+      //576px
+      @content;
+    }
+  }
+
+  @if $breakpoint == small {
+    @media only screen and (max-width: $bp-small) {
+      //752px
+      @content;
+    }
+  }
+
+  @if $breakpoint == medium {
+    //1000px
+    @media only screen and (max-width: $bp-medium) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == large {
+    //1100px
+    @media only screen and (max-width: $bp-large) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == x-large {
+    //1200px
+    @media only screen and (max-width: $bp-x-large) {
+      @content;
+    }
+  }
+}
+
+// phone only remove
+@mixin remove($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and (min-width: 577px) {
+      //576+1px
+      @content;
+    }
+  }
+}
+// base
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+
+  //1rem=10px, 10px/16px = 62.5%
+  font-size: 62.5%;
+
+  @include respond(large) {
+    font-size: 56.25%;
+  }
+}
+
+::selection {
+  color: #fff;
+  background-color: var(--color-primary);
+}

@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./sass/main.css" />
+    <script defer src="./script.js"></script>
+
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/cropped-ICO-1-32x32.png"
+    />
+
+    <title>資策會數位教育研究所</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div class="header relative">
+      <!-- top -->
+      <div class="container xl-padding-y">
+        <div class="row top">
+          <!-- top__left -->
+          <div class="top-left">
+            諮詢服務專線<i class="fas fa-phone-alt top-icon__phone"></i>(02)
+            6631-6666
+          </div>
+          <!-- top__right -->
+          <div class="top-right">
+            <div class="top-right__login">會員登入</div>
+            <div class="top-right__register">註冊</div>
+            <div class="top-right__language">Language</div>
+            <div class="top-right__wrap relative hover_target7">
+              <div class="top-right__selection">
+                繁體中文<i class="fas fa-caret-down top-icon__drop"></i>
+              </div>
+              <div class="top-right__selection absolute hidden7">English</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- logo & search-bar-->
+      <div class="container pt pb xl-padding-y">
+        <div class="row space-between align-items-center">
+          <!-- logo -->
+          <div class="logo"><img src="./img/iiiedu-logo.png" alt="logo" /></div>
+          <!-- search-bar -->
+          <div class="search-bar">
+            <input
+              class="search-bar__input"
+              type="text"
+              placeholder="搜尋課程..."
+            />
+            <a href="#" class="search-bar__button">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- nav-bar & dropbox -->
+      <div class="container absolute nav_position">
+        <nav class="nav">
+          <ul class="row nav__box">
+            <!-- home -->
+            <li class="nav__item">
+              <a class="nav__item__link" href="">首頁</a>
+            </li>
+            <!-- about -->
+            <li class="nav__item hover_target1 relative">
+              <a class="nav__item__link" href="">關於教研所</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+              <!-- dropbox start -->
+
+              <div class="hidden1">
+                <div class="dropbox">
+                  <a href="#">教研所簡介</a>
+                  <a href="#">經營團隊</a>
+                </div>
+              </div>
+
+              <!-- dropbox end -->
+            </li>
+            <!-- develop -->
+            <li class="nav__item hover_target2">
+              <a class="nav__item__link" href="">資訊專業養成</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+              <!-- drop -->
+              <!--  dropbox-lg start -->
+              <div class="hidden2">
+                <div class="container dropbox-lg absolute">
+                  <!-- banner -->
+                  <div class="dropbox-lg__banner">
+                    <!-- 1 -->
+                    <div class="dropbox-lg__banner__item">
+                      <a href="#">關於人才培育</a>
+                    </div>
+                    <!-- 2 -->
+                    <div class="dropbox-lg__banner__item">
+                      <a href="#">服務據點</a>
+                    </div>
+                    <!-- 3 -->
+                    <div class="dropbox-lg__banner__item">
+                      <a href="#">近期說明會</a>
+                    </div>
+                    <!-- 4 -->
+                    <div class="dropbox-lg__banner__item">
+                      <a href="#">學員須知</a>
+                    </div>
+                    <!-- 5 -->
+                    <div class="dropbox-lg__banner__item">
+                      <a href="#">培訓服務與承諾</a>
+                    </div>
+                  </div>
+                  <!-- main -->
+                  <div class="dropbox-lg__main">
+                    <!-- left -->
+                    <div class="dropbox-lg__main__left">
+                      <div class="dropbox-lg__main__title">人才培育特色</div>
+                      <div class="dropbox-lg__main__left__picbox">
+                        <img src="./img/iiideu-header-2.jpg" alt="header-2" />
+                        <p>了解更多</p>
+                      </div>
+                    </div>
+                    <!-- center -->
+                    <div class="dropbox-lg__main__center">
+                      <div class="dropbox-lg__main__title">
+                        <div>專業養成班 &boxh; 課程總覽</div>
+                        <div class="dropbox-lg__main__title__map">
+                          <i class="far fa-map"></i>學習地圖
+                        </div>
+                      </div>
+                      <div class="dropbox-lg__main__center__bigbox">
+                        <!-- 1 -->
+                        <div class="dropbox-lg__main__center__bigbox__item">
+                          <div>程式設計</div>
+                          <div>網路與資安</div>
+                          <div>網頁開發</div>
+                          <div>行動開發</div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="dropbox-lg__main__center__bigbox__item">
+                          <div>大數據/AI</div>
+                          <div>物聯網/崁入式</div>
+                          <div>數位內容</div>
+                          <div>智慧行銷</div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- right -->
+                    <div class="dropbox-lg__main__right">
+                      <div class="dropbox-lg__main__title">各地區課程</div>
+                      <div class="dropbox-lg__main__right__bigbox">
+                        <div>台北</div>
+                        <div>中壢</div>
+                        <div>台中</div>
+                        <div>台南</div>
+                        <div>高雄</div>
+                        <div>數位包廂</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- dropbox-lg end -->
+            </li>
+            <!-- course -->
+            <li class="nav__item hover_target3">
+              <a class="nav__item__link" href="">精選課程目錄</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+            </li>
+            <!-- job -->
+            <li class="nav__item">
+              <a class="nav__item__link" href="">求職求才列表</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+            </li>
+            <!-- product & service -->
+            <li class="nav__item hover_target4 relative">
+              <a class="nav__item__link" href="#">產品與服務</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+              <!-- dropbox start-->
+              <div class="hidden4">
+                <div class="dropbox">
+                  <a href="#">精選教材授權方案</a>
+                  <a href="#">數位人才職能評測服務</a>
+                  <a href="#">XR體感教育科技研發</a>
+                  <a href="#">CoreLab ICT技能成長學習平台</a>
+                  <a href="#">DESC數位經營學習包廂</a>
+                  <a href="#">樂齡關懷科技研發</a>
+                </div>
+              </div>
+              <!-- dropbox end -->
+            </li>
+            <!-- policy -->
+            <li class="nav__item hover_target5 relative">
+              <a class="nav__item__link" href="">政策推動</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+              <!-- dropbox start-->
+              <div class="hidden5">
+                <div class="dropbox">
+                  <a href="#">跨域數位人才加速躍升計畫</a>
+                  <a href="#">智慧學習產業整合輸出計畫</a>
+                  <a href="#">知能產業推動發展計畫</a>
+                  <a href="#">智慧應用人才培育計畫</a>
+                  <a href="#">5G+產業新興揚帆啟航計畫</a>
+                </div>
+              </div>
+              <!-- dropbox end -->
+            </li>
+            <!-- CSR -->
+            <li class="nav__item hover_target6 relative">
+              <a class="nav__item__link" href="">社會責任與關懷</a>
+              <i class="fas fa-angle-down nav__item__icon"></i>
+              <!-- dropbox start-->
+              <div class="hidden6">
+                <div class="dropbox">
+                  <a href="#">肯納兒學習關懷</a>
+                  <a href="#">樂齡關懷科技研發</a>
+                  <a href="#">新住民語文直播共學</a>
+                </div>
+              </div>
+              <!-- dropbox end -->
+            </li>
+
+            <i class="fas fa-bars nav__box__bar"></i>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- main landing -->
+    <div class="main">
+      <div class="container2 relative">
+        <div class="main__title">資策會教研所 人才培育中心防疫期間重要公告</div>
+        <div class="main__cta">了解更多</div>
+
+        <div class="main__bottom">
+          <!-- phone-only-1 -->
+          <div class="main__bottom__box main__phone">
+            <div class="main__bottom__box__icon">
+              <i class="fas fa-book"></i>
+            </div>
+            <div class="main__bottom__box__title">課程總覽</div>
+          </div>
+          <!-- phone-only-2 -->
+          <div class="main__bottom__box main__phone">
+            <div class="main__bottom__box__icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="main__bottom__box__title">各地課程</div>
+          </div>
+
+          <!-- 1 -->
+          <div class="main__bottom__box">
+            <div class="main__bottom__box__icon">
+              <img src="./img/logo_1-e1568615304767.png" alt="icon-1" />
+            </div>
+            <div class="main__bottom__box__title">數位轉型學堂</div>
+          </div>
+          <!-- 2 -->
+          <div class="main__bottom__box">
+            <div class="main__bottom__box__icon">
+              <img src="./img/icon03.png " alt="icon-2" />
+            </div>
+            <div class="main__bottom__box__title">講師召募</div>
+          </div>
+          <!-- 3 -->
+          <div class="main__bottom__box">
+            <div class="main__bottom__box__icon">
+              <img src="./img/icon06.png" alt="icon-3" />
+            </div>
+            <div class="main__bottom__box__title">企業會員服務</div>
+          </div>
+          <!-- 4 -->
+          <div class="main__bottom__box">
+            <div class="main__bottom__box__icon">
+              <img src="./img/icon02.png" alt="icon-4" />
+            </div>
+            <div class="main__bottom__box__title">課程說明會</div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+    </div>
+
+    <!-- main2 -->
+    <div class="main2">
+      <div class="container3 py-main2 main2__rwd">
+        <!-- left -->
+        <div class="main2__box">
+          <div class="main2__box__left">
+            <!-- title -->
+            <div class="main2__title">我們的願景</div>
+
+            <!-- content -->
+            <div class="main2__box__left__content">
+              <img src="./img/iiideu-header-0326.jpg" alt="pic2" />
+              <p>
+                資策會數位教育研究所積極投入產業與科技趨勢的研析與社會需求的調查，據以做為資訊人才培育、學習科技研究、校園產業輔導等業務的發展方向。期望教研所能成為增能創業培育的典範機構與智慧校園產業的主力推手。
+              </p>
+              <!-- cta -->
+              <a class="main2__cta" href="#">了解更多</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- center -->
+        <div class="main2__box">
+          <div class="main2__box__center">
+            <!-- title -->
+            <div class="main2__title">新聞訊息</div>
+            <!-- content -->
+            <div class="main2__box__center__content">
+              <!-- start -->
+              <!-- item-1 -->
+              <div class="main2__item">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">25</div>
+                  <div class="main2__item__date__month">五月</div>
+                </div>
+                <div class="main2__item__info main2__item__info__right">
+                  資策會教研所 人才培育中心重要公告
+                </div>
+              </div>
+
+              <!-- item-2 -->
+              <div class="main2__item">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">01</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <div class="main2__item__info main2__item__info__right">
+                  疫情也擋不住的遊戲魂 2021台北遊戲開發者論壇線上啟動！
+                </div>
+              </div>
+              <!-- item-3 -->
+              <div class="main2__item">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">17</div>
+                  <div class="main2__item__date__month">五月</div>
+                </div>
+                <div class="main2__item__info main2__item__info__right">
+                  資策會教研所 人才培育中心重要公告
+                </div>
+              </div>
+              <!-- item-4 -->
+              <div class="main2__item">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">05</div>
+                  <div class="main2__item__date__month">十月</div>
+                </div>
+                <div class="main2__item__info main2__item__info__right">
+                  台南AI人才培訓 深耕在地產業
+                </div>
+              </div>
+              <!-- item-5 -->
+              <div class="main2__item">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">23</div>
+                  <div class="main2__item__date__month">九月</div>
+                </div>
+                <div class="main2__item__info main2__item__info__right">
+                  解決科技人才斷層 經濟部工業局攜手各界響應 2020 SEMICON
+                  Taiwan攜手人才循環大聯盟培育高科技人才
+                </div>
+              </div>
+              <!-- end -->
+              <a class="main2__cta main2__cta__center" href="#">檢視全部</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- right -->
+        <div class="main2__box">
+          <div class="main2__box__right">
+            <div class="main2__title">最新活動</div>
+            <!-- content -->
+            <div class="main2__box__right__content">
+              <!-- start -->
+              <!-- item-1 -->
+              <div class="main2__item main2__item__right">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">09</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <!--  -->
+                <div class="main2__box__right__wrap">
+                  <!-- info -->
+                  <div class="main2__item__info">
+                    【台北】智慧應用微軟C#工程師就業養成班-07/09<線上免費說明會>
+                  </div>
+                  <!-- info-box start-->
+                  <div class="main2__box__right__wrap__info-box">
+                    <!-- item-1 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="far fa-clock"></i>2:00 下午 - 4:00 下午
+                    </div>
+                    <!-- item-2 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="fas fa-map-marker-alt"></i
+                      >數位人才培育中心(台北市復興南路一段390號2樓)
+                    </div>
+                  </div>
+                  <!-- info-box end -->
+                </div>
+                <!--  -->
+              </div>
+
+              <!-- item-2 -->
+              <div class="main2__item main2__item__right">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">13</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <!--  -->
+                <div class="main2__box__right__wrap">
+                  <!-- info -->
+                  <div class="main2__item__info">
+                    [ AIGO教練聯盟 ]AI講師/教練領航營
+                  </div>
+                  <!-- info-box start-->
+                  <div class="main2__box__right__wrap__info-box">
+                    <!-- item-1 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="far fa-clock"></i>12:00 下午 - 10:00 下午
+                    </div>
+                    <!-- item-2 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="fas fa-map-marker-alt"></i
+                      >台北市復興南路一段390號2、3樓
+                    </div>
+                  </div>
+                  <!-- info-box end -->
+                </div>
+                <!--  -->
+              </div>
+              <!-- item-3 -->
+              <div class="main2__item main2__item__right">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">13</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <!--  -->
+                <div class="main2__box__right__wrap">
+                  <!-- info -->
+                  <div class="main2__item__info">
+                    【台北】3D遊戲美術設計就業養成班-7/13<線上免費說明會>
+                  </div>
+                  <!-- info-box start-->
+                  <div class="main2__box__right__wrap__info-box">
+                    <!-- item-1 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="far fa-clock"></i>2:00 下午 - 4:00 下午
+                    </div>
+                    <!-- item-2 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="fas fa-map-marker-alt"></i
+                      >台北市大安區復興南路一段390號2樓
+                    </div>
+                  </div>
+                  <!-- info-box end -->
+                </div>
+                <!--  -->
+              </div>
+              <!-- item-4 -->
+              <div class="main2__item main2__item__right">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">13</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <!--  -->
+                <div class="main2__box__right__wrap">
+                  <!-- info -->
+                  <div class="main2__item__info">
+                    【台北】跨域Java軟體工程師就業養成班-07/13<免費說明會>
+                  </div>
+                  <!-- info-box start-->
+                  <div class="main2__box__right__wrap__info-box">
+                    <!-- item-1 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="far fa-clock"></i>2:00 下午 - 4:00 下午
+                    </div>
+                    <!-- item-2 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="fas fa-map-marker-alt"></i
+                      >數位人才培育中心(台北市復興南路1段390號2樓)
+                    </div>
+                  </div>
+                  <!-- info-box end -->
+                </div>
+                <!--  -->
+              </div>
+              <!-- item-5 -->
+              <div class="main2__item main2__item__right">
+                <div class="main2__item__date">
+                  <div class="main2__item__date__day">13</div>
+                  <div class="main2__item__date__month">七月</div>
+                </div>
+                <!--  -->
+                <div class="main2__box__right__wrap">
+                  <!-- info -->
+                  <div class="main2__item__info">
+                    【台南】全端開發工程師就業養成班-07/13<免費說明會>
+                  </div>
+                  <!-- info-box start-->
+                  <div class="main2__box__right__wrap__info-box">
+                    <!-- item-1 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="far fa-clock"></i>2:00 下午 - 3:00 下午
+                    </div>
+                    <!-- item-2 -->
+                    <div class="main2__box__right__wrap__info-box__item">
+                      <i class="fas fa-map-marker-alt"></i>線上
+                    </div>
+                  </div>
+                  <!-- info-box end -->
+                </div>
+                <!--  -->
+              </div>
+              <!-- end -->
+              <a class="main2__cta" href="#">檢視全部</a>
+            </div>
+          </div>
+          <!-- end -->
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+      <div class="container3 flex-direction-column">
+        <!-- footer top -->
+        <div class="footer__top py-footer">
+          <!-- app -->
+          <div class="footer__top__app">
+            <p>教研所 MYEDU APP</p>
+            <img src="./img/Google-play-badge-1-2.png" alt="google-play" />
+            <img src="./img/itunes-app-store-icon-1-2.png" alt="apple-store" />
+          </div>
+          <!-- site map -->
+          <div class="footer__top__site">
+            <!-- item 1 -->
+            <div class="footer__top__site__item">
+              <h2>關於我們</h2>
+              <a href="#">教研所簡介</a>
+              <a href="#">服務據點</a>
+              <a href="#">新聞訊息</a>
+              <a href="#">最新活動</a>
+            </div>
+
+            <!-- item 2 -->
+            <div class="footer__top__site__item">
+              <h2>企業培訓服務</h2>
+              <a href="#">企業會員</a>
+              <a href="#">企業包班</a>
+              <a href="#">教室租借</a>
+              <a href="#">人才媒合</a>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+        </div>
+        <!-- footer bottom -->
+        <div class="footer__bottom">
+          <div class="footer__bottom__left">
+            Copyright &copy;2020 III Digital Education Institute All Rights
+            Reserved.
+          </div>
+          <div class="footer__bottom__right">
+            <a href="#">隱私權政策</a>
+            <a href="#">行使個資權利</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
